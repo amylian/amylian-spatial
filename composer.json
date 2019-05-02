@@ -1,0 +1,32 @@
+{
+	"name" : "amylian/amylian-spatial",
+	"description" : "ATTENTION EXPERIMENTAL! Spatial Data Classes",
+	"type" : "library",
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"authors" : [{
+			"name" : "Andreas Prucha (Abexto - Helicon Software Development - Andreas Prucha / Amylian Project)",
+			"email" : "andreas.prucha@gmail.com",
+			"homepage" : "http://www.abexto.com",
+			"role" : "Developer"
+		}
+	],
+	"require" : {
+		"php" : "^7.1",
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Amylian\\Spatial\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Amylian\\Spatial\\Tests\\ : "tests/"
+		}
+	},
+	"extra" : {
+	}
+}
