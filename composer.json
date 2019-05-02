@@ -24,7 +24,7 @@
 	},
 	"autoload-dev" : {
 		"psr-4" : {
-			"Amylian\\Spatial\\Tests\\ : "tests/"
+			"Amylian\\Spatial\\Tests\\" : "tests/"
 		}
 	},
 	"extra" : {
